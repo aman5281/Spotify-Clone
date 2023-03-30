@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Uninterrupted Song</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>My Playlist - Punjabi & Hindi</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp">4:32 <i id="0" class="fa-regular songitemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp">1:30<i id="1" class="fa-regular songitemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp">5:56 <i id="2" class="fa-regular songitemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp">2:53 <i id="3" class="fa-regular songitemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp">3:14 <i id="4" class="fa-regular songitemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp">3:11<i id="5" class="fa-regular songitemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp">3:34<i id="6" class="fa-regular songitemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="gif.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/851d9b16ea.js" crossorigin="anonymous"></script> -->
+
+    <img src="./Song/1.mp3" alt="">
+</body>
+</html>

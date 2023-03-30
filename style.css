@@ -1,0 +1,112 @@
+/* POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* VARELA ROUND */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+nav{
+    font-family: 'poppins','sanserif';
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: rgba(24, 22, 22, 0.853);
+    color: white;
+    gap: 40px;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(248, 237, 224);
+}
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+    margin-left: 5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: 72vh;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    width: 70%;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: rgb(84, 84, 84);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 19px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 60px;
+}
+.songitem{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    color: black;
+    border-radius: 25px;
+}
+.songitem img{
+    width: 33px;
+    margin: 0 23px;
+    border-radius: 15px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    padding-left: 5px;
+    cursor: pointer;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity .4s ease-in;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Varela Round', sans-serif;
+} 
